@@ -12,3 +12,5 @@ func containsDuplicate(nums []int) bool {
 	}
 	return false
 }
+
+// another method is using a set to check size
