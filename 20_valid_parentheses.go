@@ -40,3 +40,5 @@ func isValid(v string) bool {
 	}
 	return s.len() == 0
 }
+
+// a clear way is to do replacements repeatedly, but should be much slower
