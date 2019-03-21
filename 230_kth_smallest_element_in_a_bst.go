@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package practice_leetcode
 
 /**
  * Definition for a binary tree node.
@@ -10,21 +8,6 @@ import "fmt"
  *     Right *TreeNode
  * }
  */
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
-func main() {
-	r := &TreeNode{
-		3,
-		&TreeNode{1, nil,
-			&TreeNode{2, nil, nil}},
-		&TreeNode{4, nil, nil},
-	}
-	fmt.Println(kthSmallest(r, 1))
-}
 
 type visitFn func(v int) (stop bool)
 
