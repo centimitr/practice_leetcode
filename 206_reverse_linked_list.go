@@ -1,10 +1,5 @@
 package practice_leetcode
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func reverseList(head *ListNode) *ListNode {
 	n := head
 	var prev *ListNode

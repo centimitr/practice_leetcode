@@ -1,10 +1,5 @@
 package practice_leetcode
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func deleteNode(node *ListNode) {
 	if node.Next == nil {
 		node = nil
