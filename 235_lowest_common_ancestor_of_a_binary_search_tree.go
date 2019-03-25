@@ -1,11 +1,5 @@
 package practice_leetcode
 
-type TreeNode struct {
-	Val   int
-	Left  *ListNode
-	Right *ListNode
-}
-
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	for root != nil {
 		left := root.Val - p.Val

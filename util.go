@@ -16,3 +16,9 @@ func (l *ListNode) Print() {
 	}
 	fmt.Println()
 }
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
